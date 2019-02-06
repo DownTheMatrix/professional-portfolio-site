@@ -1,0 +1,45 @@
+/* Colors */
+$primary-color-dark:   #303F9F;
+$primary-color:        #3F51B5;
+$primary-color-light:  #C5CAE9;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FF5722;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+
+/* Sizes */
+$container-width: 110rem;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Utility Classes */
+.container {
+    max-width: $container-width;
+    margin: auto;
+}
+
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Header */
