@@ -1,4 +1,5 @@
 const init = () => {
+  "use strict";
   /* Make resume boxes appear on scroll */
   const items = document.querySelectorAll("#timeline li");
 
@@ -31,7 +32,6 @@ const init = () => {
   MENU.addEventListener("click", () => {
     NAVLIST.classList.toggle("active");
   })
-  
 };
 
 document.addEventListener("DOMContentLoaded", init);
