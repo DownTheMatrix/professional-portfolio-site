@@ -10,7 +10,6 @@
     width: 100%;
     padding: 1rem 2rem;
     background-color: $primary-color-dark;
-    text-align: right;
     font-size: 3rem;
     display: none;
 
@@ -18,13 +17,32 @@
       cursor: pointer;
     }
 
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-self: flex-start;
+
+        img {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+      }
+
+      .menu {
+          margin-left: auto;
+      }
+
     @media (max-width: 768px) {
-      display: block;
+        display: flex;
     }
   }
 
-  .navlist {
-    // ul
+  .navlist { 
+      
+    @media (min-width: 769px) {
+        display: flex;
+        justify-content: flex-end;
+    }
 
     &.active {
       @media (max-width: 768px) {
@@ -34,7 +52,6 @@
     }
 
     &__item {
-      // li
       list-style-type: none;
       display: inline-block;
       padding: 2rem;
