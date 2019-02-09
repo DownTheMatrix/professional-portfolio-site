@@ -137,7 +137,8 @@ ul {
     #header .header-btn-container .header-btn {
       background-color: #FF5722;
       max-width: 18rem;
-      transition: all .3s; }
+      transition: all .3s;
+      padding: 1.5rem 3rem; }
       #header .header-btn-container .header-btn:hover {
         background-color: #ff4409;
         color: #FFFFFF; }
@@ -218,7 +219,8 @@ ul {
     #work .btn-container .work-btn {
       background-color: transparent;
       transition: all 0.3s;
-      border: 2px solid #FF5722; }
+      border: 2px solid #FF5722;
+      padding: 1.5rem 5rem; }
       #work .btn-container .work-btn:hover {
         background-color: #FF5722;
         color: #FFFFFF; }
@@ -278,7 +280,7 @@ ul {
     margin: 5rem 0; }
     #cooperation .cooperation-container .btn-container .cooperation-btn {
       font-size: 1.4rem;
-      padding: 1.5rem 3rem;
+      padding: 1.5rem 5rem;
       transition: all 0.3s;
       background-color: transparent;
       border: 2px solid #FF5722;
