@@ -1,12 +1,17 @@
 .footer {
-  padding: 2rem;
 
   .footer-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
     grid-gap: 5rem;
     text-align: center;
     margin-top: 3rem;
+
+    /* @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    } */
 
     .footer-logo {
       display: flex;
@@ -31,6 +36,8 @@
     }
 
     .blog {
+      margin-left: .5rem;
+
       ul {
         display: grid;
         grid-gap: 0.3rem;
@@ -68,6 +75,7 @@
       ul {
         display: grid;
         grid-gap: 0.3rem;
+        margin-right: .5rem;
 
         li {
           a:link,
@@ -86,6 +94,7 @@
       grid-column: 1 / -1;
       text-align: center;
       background-color: $primary-color-light;
+      margin-top: 3rem;
 
       p {
         font-size: 1.4rem;
