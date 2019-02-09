@@ -124,6 +124,13 @@ ul {
     background-color: $primary-text-color;
     padding: 2rem;
 
+    h3 {
+        font-size: 2.8rem;
+        text-align: center;
+        font-family: $font-primary;
+        color: $primary-color-text;
+    }
+
     .work-container {
         padding-top: 2rem;
 
