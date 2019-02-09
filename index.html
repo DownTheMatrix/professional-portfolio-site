@@ -84,19 +84,22 @@
 
         <div class="header-text">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique,
-            nulla? Nulla molestiae ea nesciunt est alias temporibus rem autem
-            dolore.
+           Hi, I'm Bruno. I'm a Front-End Developer who loves to design and code simple and neat websites, with special care about accessibility and performance. Take your time to explore this page and get in touch to start working together.
           </p>
         </div>
 
-        <a href="resume.html" class="header-btn btn">View Resume &rarr;</a>
+        <div class="header-btn-container">
+            <a href="resume.html" class="header-btn btn">View Resume &rarr;</a>
+        </div>
       </div>
     </header>
 
     <!-- Work -->
     <section id="work">
-      <h3>My Recent Projects</h3>
+      <div class="work-heading">
+          <h3>My Recent Projects</h3>
+      </div>
+
       <div class="work-container container">
         <ul>
           <li>
@@ -146,7 +149,6 @@
               </figure>
             </a>
           </li>
-
         </ul>
       </div>
 
@@ -155,93 +157,95 @@
       </div>
     </section>
 
-    <!-- Inspiration / Timeline -->
-    <section id="inspiration">
-        <h3>My Favorite Quotes</h3>
-        <div class="inspiration-container container">
-            <div class="quote">
-                <figure>
-                    <img src="img/girl1.jpeg" alt="">
-                    <figcaption>
-                        <h4>Author</h4>
-                        <h5>Role</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa et impedit repellat nobis.</p>
-                    </figcaption>
-                </figure>
-            </div>
+    <!-- Roadmap -->
+    <section id="roadmap">
+      <div class="roadmap-heading">
+        <h3>How I tackle a project</h3>
+      </div>
 
-            <div class="quote">
-                <figure>
-                    <img src="img/man.jpeg" alt="">
-                    <figcaption>
-                        <h4>Author</h4>
-                        <h5>Role</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa et impedit repellat nobis.</p>
-                    </figcaption>
-                </figure>
-            </div>
-
-            <div class="quote">
-                <figure>
-                    <img src="img/girl2.jpeg" alt="">
-                    <figcaption>
-                        <h4>Author</h4>
-                        <h5>Role</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa et impedit repellat nobis.</p>
-                    </figcaption>
-                </figure>
-            </div>
+      <div class="roadmap-container container">
+        <div class="roadmap-box">
+          <svg class="roadmap-icon">
+            <use href="icon/sprites.svg#icon-open-book"></use>
+          </svg>
+          <h3>Research</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+            non enim est labore quidem cumque, ipsum at deserunt. Placeat, cum!
+          </p>
         </div>
+
+        <div class="roadmap-box">
+          <svg class="roadmap-icon">
+            <use href="icon/sprites.svg#icon-tools"></use>
+          </svg>
+          <h3>Design</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+            non enim est labore quidem cumque, ipsum at deserunt. Placeat, cum!
+          </p>
+        </div>
+
+        <div class="roadmap-box">
+          <svg class="roadmap-icon">
+            <use href="icon/sprites.svg#icon-code"></use>
+          </svg>
+          <h3>Code</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+            non enim est labore quidem cumque, ipsum at deserunt. Placeat, cum!
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Cooperation -->
     <section id="cooperation">
-        <div class="cooperation-container container">
-            <h3>Let's work together!</h3>
-            <h4>I'd love to hear from you and work along on a project.</h4>
-            <div class="btn-container">
-                <a href="#" class="cooperation-btn btn">Let's start &rarr;</a>
-            </div>
+      <div class="cooperation-container container">
+        <h3>Let's work together!</h3>
+        <h4>I'd love to hear from you and work along on a project.</h4>
+        <div class="btn-container">
+          <a href="#" class="cooperation-btn btn">Let's start &rarr;</a>
         </div>
+      </div>
     </section>
 
     <!-- Footer / Contact -->
     <footer class="footer" id="contact">
-        <div class="footer-container container">
-            <div class="footer-logo">
-                <img src="img/personal-logo.png" alt="Persona Logo">
-                <p>Let's keep in touch!</p>
-            </div>
-
-            <div class="blog">
-                <ul>
-                    <li class="bolded">About</li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-
-            <div class="social">
-                <ul>
-                    <li class="bolded">Social</li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Xing</a></li>
-                </ul>
-            </div>
-
-            <div class="professional">
-                <ul>
-                    <li class="bolded">Professional</li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Github</a></li>
-                </ul>
-            </div>
-
-            <div class="copyright">
-                <p>Bruno Mazza 2019 &copy; All Rights Reserved</p>
-            </div>
+      <div class="footer-container container">
+        <div class="footer-logo">
+          <img src="img/personal-logo.png" alt="Persona Logo" />
+          <p>Let's keep in touch!</p>
         </div>
+
+        <div class="blog">
+          <ul>
+            <li class="bolded">About</li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="social">
+          <ul>
+            <li class="bolded">Social</li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+
+        <div class="professional">
+          <ul>
+            <li class="bolded">Work</li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Github</a></li>
+          </ul>
+        </div>
+
+        <div class="copyright">
+          <p>Bruno Mazza 2019 &copy; All Rights Reserved</p>
+        </div>
+      </div>
     </footer>
 
     <script src="js/main.js"></script>
