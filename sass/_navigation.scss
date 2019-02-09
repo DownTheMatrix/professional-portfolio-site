@@ -1,4 +1,3 @@
-/* Navigation Menu */
 #navbar {
   background-color: $primary-color-dark;
   color: $primary-color-text;
@@ -18,31 +17,31 @@
     }
 
     .logo {
-        display: flex;
-        align-items: center;
-        justify-self: flex-start;
+      display: flex;
+      align-items: center;
+      justify-self: flex-start;
 
-        img {
-            width: 3.5rem;
-            height: 3.5rem;
-        }
+      img {
+        width: 3.5rem;
+        height: 3.5rem;
       }
+    }
 
-      .menu {
-          margin-left: auto;
-      }
+    .menu {
+      margin-left: auto;
+    }
 
     @media (max-width: 768px) {
-        display: flex;
+      display: flex;
     }
   }
 
-  .navlist { 
-    display: none;  /* REMOVE after testing */
-    
+  .navlist {
+    /* display: none; */ /* REMOVE after testing */
+
     @media (min-width: 769px) {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
     }
 
     &.active {
