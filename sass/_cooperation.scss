@@ -1,0 +1,39 @@
+#cooperation {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: $primary-color;
+  color: $primary-text-color;
+
+  .cooperation-container {
+    h3 {
+      font-size: 3.2rem;
+      font-family: $font-primary;
+      font-weight: 700;
+    }
+
+    h4 {
+      font-size: 2rem;
+      font-weight: 400;
+      font-family: $font-secondary;
+    }
+
+    .btn-container {
+      text-align: center;
+      margin: 5rem 0;
+
+      .cooperation-btn {
+        font-size: 1.4rem;
+        padding: 1.5rem 3rem;
+        transition: all 0.3s;
+        background-color: transparent;
+        border: 2px solid $accent-color;
+        color: $primary-color-text;
+
+        &:hover {
+          background-color: $accent-color;
+          color: $primary-text-color;
+        }
+      }
+    }
+  }
+}
