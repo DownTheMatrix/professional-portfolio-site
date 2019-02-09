@@ -1,0 +1,103 @@
+#work {
+  background-color: $primary-color-light;
+  padding: 2rem;
+
+  .work-heading {
+    margin-top: 3rem;
+
+      h3 {
+        font-size: 2.8rem;
+        text-align: center;
+        font-family: $font-primary;
+        color: $primary-text-color;
+      }
+  }
+  .work-container {
+    padding: 2rem;
+    margin: 3rem auto;
+
+    ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 3rem;
+
+      @media (min-width: 500px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      li {
+        padding: 1rem;
+        border: 2px solid darken($primary-color-light, 5%);
+        border-radius: 1rem;
+
+        a:link,
+        a:visited {
+          text-decoration: none;
+          font-size: 2rem;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+
+          .img-overlay {
+            position: relative;
+
+            &:hover .img-hover {
+              opacity: 1;
+            }
+
+            &:hover img {
+              opacity: 0.9;
+            }
+
+            &:hover .img-hover .img-text {
+              color: $primary-color-text;
+              font-weight: bold;
+            }
+
+            img {
+              width: 100%;
+              height: 100%;
+              transition: all 0.4s ease-in;
+              backface-visibility: hidden;
+              border-radius: 1rem;
+            }
+
+            .img-hover {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              opacity: 0;
+              transition: all 0.3s ease-in;
+
+              .img-text {
+                color: $primary-color-text;
+                font-family: $font-secondary;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn-container {
+    text-align: center;
+    margin: 5rem 0 5rem 0;
+
+    .work-btn {
+      font-size: 1.4rem;
+      padding: 1.5rem 3rem;
+      background-color: transparent;
+
+      transition: all 0.3s;
+      border: 2px solid $accent-color;
+
+      &:hover {
+        background-color: $accent-color;
+        color: $primary-color-text;
+      }
+    }
+  }
+}
