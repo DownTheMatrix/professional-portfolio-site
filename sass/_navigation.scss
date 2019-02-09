@@ -1,10 +1,10 @@
 /* Navigation Menu */
 #navbar {
-  background-color: $primary-color;
+  background-color: $primary-color-dark;
   color: $primary-color-text;
   width: 100%;
   font-family: $font-primary;
-  border-bottom: 2px solid $divider-color;
+  border-bottom: 1px solid $divider-color;
 
   .toggle {
     width: 100%;
@@ -38,7 +38,8 @@
   }
 
   .navlist { 
-      
+    display: none;  /* REMOVE after testing */
+    
     @media (min-width: 769px) {
         display: flex;
         justify-content: center;
@@ -60,7 +61,7 @@
         background-color: $accent-color;
       }
 
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         display: block;
         text-align: center;
       }
