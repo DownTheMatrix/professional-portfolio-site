@@ -5,10 +5,17 @@
   color: $primary-text-color;
 
   .cooperation-container {
+    display: grid;
+    grid-gap: 1rem;
+
     h3 {
       font-size: 3.2rem;
       font-family: $font-primary;
       font-weight: 700;
+
+      @media (max-width: 500px) {
+        font-size: 2.8rem;
+      }
     }
 
     h4 {
@@ -23,7 +30,7 @@
 
       .cooperation-btn {
         font-size: 1.4rem;
-        padding: 1.5rem 3rem;
+        padding: 1.5rem 5rem;
         transition: all 0.3s;
         background-color: transparent;
         border: 2px solid $accent-color;
