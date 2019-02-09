@@ -32,6 +32,13 @@
         font-family: $font-primary;
         font-weight: 700;
         color: $primary-text-color;
+        padding-bottom: .8rem;
+      }
+
+      .divide {
+        background-color: $accent-color;
+        width: 10rem;
+        height: .3rem;
       }
     }
 
@@ -90,7 +97,7 @@
     }
 
     .copyright {
-      padding: 1rem;
+      padding: 2rem;
       grid-column: 1 / -1;
       text-align: center;
       background-color: $primary-color-light;
