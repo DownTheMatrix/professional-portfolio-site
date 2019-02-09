@@ -1,0 +1,58 @@
+#header {
+  background-color: $primary-color;
+
+  .header-container {
+    color: $primary-color-text;
+    padding: 2rem 2rem;
+    display: grid;
+    grid-gap: 3rem;
+    margin-top: 3rem;
+
+    @media (max-width: 500px) {
+      grid-gap: 4rem;
+    }
+
+    .header-heading {
+      h1 {
+        font-size: 4rem;
+        font-family: $font-primary;
+        line-height: 5.5rem;
+
+        @media (min-width: 850px) {
+          font-size: 10rem;
+          line-height: 12.7rem;
+        }
+      }
+    }
+  }
+
+  .divide {
+    width: 9rem;
+    height: 1.2rem;
+    background-color: $primary-color-text;
+  }
+
+  .header-text {
+    font-size: 1.8rem;
+    font-family: $font-secondary;
+
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+
+  .header-btn-container {
+    padding: 1rem 0 5rem 0;
+
+    .header-btn {
+      background-color: $accent-color;
+      max-width: 18rem;
+      transition: all .3s;
+
+      &:hover {
+        background-color: darken($accent-color, 5%);
+        color: $primary-color-text;
+      }
+    }
+  }
+}
