@@ -49,6 +49,7 @@
       max-width: 18rem;
       transition: all .3s;
       padding: 1.5rem 3rem;
+      border-radius: 0;
 
       &:hover {
         background-color: darken($accent-color, 5%);
