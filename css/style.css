@@ -47,7 +47,8 @@ ul {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #212121; }
+  color: #212121;
+  text-transform: uppercase; }
 
 #navbar {
   background-color: #303F9F;
@@ -138,7 +139,8 @@ ul {
       background-color: #FF5722;
       max-width: 18rem;
       transition: all .3s;
-      padding: 1.5rem 3rem; }
+      padding: 1.5rem 3rem;
+      border-radius: 0; }
       #header .header-btn-container .header-btn:hover {
         background-color: #ff4409;
         color: #FFFFFF; }
@@ -252,9 +254,13 @@ ul {
       align-items: center;
       grid-gap: 1rem; }
       #roadmap .roadmap-container .roadmap-box .roadmap-icon {
-        width: 3.5rem;
-        height: 3.5rem;
-        fill: #303F9F; }
+        width: 5.5rem;
+        height: 5.5rem;
+        fill: #303F9F;
+        /*  padding: 1.5rem;
+        background-color: $primary-color;
+        border-radius: 50%;
+        fill: $primary-color-text; */ }
       #roadmap .roadmap-container .roadmap-box h3 {
         font-size: 2rem;
         font-family: "Montserrat", sans-serif; }
@@ -262,36 +268,66 @@ ul {
         font-size: 1.6rem;
         font-family: "Lato", Arial, sans-serif; }
 
-#cooperation {
+.cooperation {
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 1rem;
   background-color: #3F51B5;
-  color: #212121; }
-  #cooperation .cooperation-container {
+  color: #FFFFFF; }
+  .cooperation .cooperation-container {
     display: grid;
-    grid-gap: 1rem; }
-    #cooperation .cooperation-container h3 {
+    grid-gap: 1rem;
+    /* Form */ }
+    @media (min-width: 1100px) {
+      .cooperation .cooperation-container {
+        max-width: 50vw; } }
+    .cooperation .cooperation-container h3 {
       font-size: 3.2rem;
       font-family: "Montserrat", sans-serif;
       font-weight: 700; }
       @media (max-width: 500px) {
-        #cooperation .cooperation-container h3 {
+        .cooperation .cooperation-container h3 {
           font-size: 2.8rem; } }
-    #cooperation .cooperation-container h4 {
+    .cooperation .cooperation-container h4 {
       font-size: 2rem;
       font-weight: 400;
       font-family: "Lato", Arial, sans-serif; }
-    #cooperation .cooperation-container .btn-container {
+    .cooperation .cooperation-container .btn-container {
       text-align: center;
-      margin: 5rem 0; }
-      #cooperation .cooperation-container .btn-container .cooperation-btn {
+      margin: 5rem 0;
+      /* .cooperation-btn {
+        font-size: 1.4rem;
+        padding: 1.5rem 5rem;
+        transition: all 0.3s;
+        background-color: transparent;
+        border: 2px solid $accent-color;
+        color: $primary-color-text;
+
+        &:hover {
+          background-color: $accent-color;
+          color: $primary-text-color;
+        }
+      } */ }
+    .cooperation .cooperation-container form {
+      padding: 2rem 0; }
+      .cooperation .cooperation-container form .form-group > * {
+        padding: 1rem; }
+      .cooperation .cooperation-container form .form-group label {
+        display: block;
+        width: 100%;
+        text-align: left;
+        font-size: 1.6rem; }
+      .cooperation .cooperation-container form .form-group input {
+        width: 100%; }
+      .cooperation .cooperation-container form .form-group textarea {
+        width: 100%; }
+      .cooperation .cooperation-container form .cooperation-btn {
         font-size: 1.4rem;
         padding: 1.5rem 5rem;
         transition: all 0.3s;
         background-color: transparent;
         border: 2px solid #FF5722;
         color: #FFFFFF; }
-        #cooperation .cooperation-container .btn-container .cooperation-btn:hover {
+        .cooperation .cooperation-container form .cooperation-btn:hover {
           background-color: #FF5722;
           color: #212121; }
 
