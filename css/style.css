@@ -316,7 +316,8 @@ ul {
         width: 100%;
         text-align: left;
         font-size: 1.8rem;
-        font-family: "Lato", Arial, sans-serif; }
+        font-family: "Lato", Arial, sans-serif;
+        padding: 1rem 0; }
       .cooperation .cooperation-container form .form-group input {
         width: 100%; }
       .cooperation .cooperation-container form .form-group textarea {
