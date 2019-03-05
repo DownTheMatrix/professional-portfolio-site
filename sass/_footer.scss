@@ -2,12 +2,16 @@
 
   .footer-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     grid-gap: 5rem;
     text-align: center;
     margin-top: 3rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
 
     /* @media (max-width: 500px) {
       grid-template-columns: 1fr;
@@ -100,7 +104,7 @@
       padding: 2rem;
       grid-column: 1 / -1;
       text-align: center;
-      background-color: $primary-color-light;
+      background-color: darken($primary-color-light, 10%);
       margin-top: 3rem;
 
       p {

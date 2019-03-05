@@ -28,10 +28,8 @@
       }
 
       li {
-        padding: 0.5rem;
-        border: 2px solid darken($primary-color-light, 5%);
-        border-radius: 1rem;
-        background-color: $primary-color-dark;
+        /* padding: 0.5rem; */
+        /* border: 2px solid darken($primary-color-light, 5%); */
 
         a:link,
         a:visited {
@@ -43,6 +41,7 @@
           .img-overlay {  // figure
             position: relative;
             overflow: hidden;
+            border-radius: 12px;
 
             &:hover .img-hover {
               opacity: 1;
@@ -60,15 +59,11 @@
 
             img {
               display: block;
-              max-width: none;
               width: 100%;
               height: 100%;
-              min-height: 10rem;
-              -o-object-fit: cover;
               object-fit: cover;
               transition: all 0.3s ease-in;
               backface-visibility: hidden;
-              border-radius: 1rem;
               transform: scale(1);
             }
 
