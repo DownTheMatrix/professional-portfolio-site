@@ -50,15 +50,15 @@ ul {
   color: #212121;
   text-transform: uppercase; }
 
-body {
+.wrapper {
   width: 100%;
   height: 100vh;
   position: relative;
   background: url("../img/artboard-xm.svg") no-repeat center center/cover; }
   @media (min-width: 768px) {
-    body {
+    .wrapper {
       background: url("../img/artboard-lg.svg") no-repeat center center/cover; } }
-  body .back-btn:link, body .back-btn:visited {
+  .wrapper .back-btn:link, .wrapper .back-btn:visited {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     padding: 1.25rem 2.5rem;
@@ -73,10 +73,10 @@ body {
     border-radius: 10rem;
     transition: all .3s; }
     @media (min-width: 768px) {
-      body .back-btn:link, body .back-btn:visited {
+      .wrapper .back-btn:link, .wrapper .back-btn:visited {
         font-size: 1.6rem;
         padding: 1.50rem 3.5rem; } }
-  body .back-btn:hover, body .back-btn:active {
+  .wrapper .back-btn:hover, .wrapper .back-btn:active {
     cursor: pointer;
     background-color: #bb3903; }
 
