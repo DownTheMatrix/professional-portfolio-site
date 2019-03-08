@@ -56,9 +56,6 @@ ul {
   height: 100vh;
   position: relative;
   background: url("../img/artboard-xm.svg") no-repeat center center/cover; }
-  @media (min-width: 768px) {
-    .wrapper {
-      background: url("../img/artboard-lg.svg") no-repeat center center/cover; } }
   .wrapper .back-btn:link, .wrapper .back-btn:visited {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
