@@ -170,8 +170,7 @@ ul {
       background-color: #FF5722;
       max-width: 18rem;
       transition: all .3s;
-      padding: 1.5rem 3rem;
-      border-radius: 0; }
+      padding: 1.5rem 3rem; }
       #header .header-btn-container .header-btn:hover {
         background-color: #ff4409;
         color: #FFFFFF; }
@@ -345,21 +344,21 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5rem; }
+  padding: 2rem; }
+  @media (min-width: 768px) {
+    #resume {
+      padding: 5rem; } }
   #resume h2 {
-    font-size: 3rem;
+    font-size: 2.8rem;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 300; }
-    @media (max-width: 600px) {
-      #resume h2 {
-        font-size: 1.4rem;
-        font-weight: 600; } }
+    text-transform: capitalize; }
   #resume .timeline {
-    margin-top: 5rem;
+    margin: 5rem 0 10rem 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 5rem; }
+    grid-gap: 5rem;
+    padding: 3rem; }
     @media (min-width: 768px) {
       #resume .timeline {
         grid-template-columns: repeat(2, 1fr); } }
