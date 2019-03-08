@@ -99,20 +99,20 @@
         }
       }
     }
+  }
 
-    .copyright {
-      padding: 2rem;
-      grid-column: 1 / -1;
-      text-align: center;
-      background-color: darken($primary-color-light, 10%);
-      margin-top: 3rem;
+  .copyright {
+    padding: 2rem;
+    grid-column: 1 / -1;
+    text-align: center;
+    background-color: darken($primary-color-light, 10%);
+    margin-top: 5rem;
 
-      p {
-        font-size: 1.4rem;
-        font-family: $font-primary;
-        color: $primary-text-color;
-        font-weight: 700;
-      }
+    p {
+      font-size: 1.4rem;
+      font-family: $font-primary;
+      color: $primary-text-color;
+      font-weight: 700;
     }
   }
 }
