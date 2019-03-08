@@ -1,5 +1,6 @@
 /* Colors */
 /* Sizes */
+/* Social Badges */
 *,
 *::before,
 *::after {
@@ -352,7 +353,8 @@ ul {
     font-weight: 300; }
     @media (max-width: 600px) {
       #resume h2 {
-        font-size: 2rem; } }
+        font-size: 2rem;
+        font-weight: 600; } }
   #resume .timeline {
     margin-top: 5rem;
     display: grid;
@@ -364,13 +366,36 @@ ul {
     #resume .timeline .item {
       background-color: #3F51B5;
       padding: 2rem;
-      border-radius: 1rem; }
+      border-radius: 1rem;
+      display: grid;
+      grid-gap: 1rem; }
       #resume .timeline .item h4 {
         font-size: 2rem;
-        font-family: "Montserrat", sans-serif; }
+        font-family: "Montserrat", sans-serif;
+        color: #FFFFFF; }
+      #resume .timeline .item h5 {
+        font-size: 1.8rem;
+        font-family: "Lato", Arial, sans-serif; }
+      #resume .timeline .item a:link, #resume .timeline .item a:visited {
+        text-decoration: none;
+        font-size: 1.4rem;
+        color: #FFFFFF;
+        background-color: #FF5722;
+        padding: .5rem 1rem;
+        border-radius: 10rem;
+        max-width: min-content; }
+      #resume .timeline .item a.link-blue {
+        background-color: #0077B5; }
+      #resume .timeline .item a.link-green {
+        background-color: #004b00; }
+      #resume .timeline .item a.link-azure {
+        background-color: #02B3E4; }
+      #resume .timeline .item a.link-pink {
+        background-color: #EA5252; }
       #resume .timeline .item p {
         font-size: 1.6rem;
-        font-family: "Lato", Arial, sans-serif; }
+        font-family: "Lato", Arial, sans-serif;
+        color: #FFFFFF; }
 
 .footer .footer-container {
   display: grid;
