@@ -353,7 +353,7 @@ ul {
     font-weight: 300; }
     @media (max-width: 600px) {
       #resume h2 {
-        font-size: 2rem;
+        font-size: 1.4rem;
         font-weight: 600; } }
   #resume .timeline {
     margin-top: 5rem;
