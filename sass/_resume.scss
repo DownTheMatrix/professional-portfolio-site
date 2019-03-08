@@ -9,5 +9,76 @@
         font-family: $font-primary;
         text-transform: uppercase;
         font-weight: 300;
+
+        @media (max-width: 600px) {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+
+    .timeline {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5rem;
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .item {
+            background-color: $primary-color;
+            padding: 2rem;
+            border-radius: 1rem;
+            display: grid;
+            grid-gap: 1rem;
+
+            h4 {
+                font-size: 2rem;
+                font-family: $font-primary;
+                color: $primary-color-text;
+            }   
+
+            h5 {
+                font-size: 1.8rem;
+                font-family: $font-secondary;
+            }
+
+            a {
+               &:link,
+               &:visited {
+                text-decoration: none;
+                font-size: 1.4rem;
+                color: $primary-color-text; 
+                background-color: $accent-color;
+                padding: .5rem 1rem;
+                border-radius: 10rem;
+                max-width: min-content;
+               }
+
+               &.link-blue {
+                   background-color: $linkedin-color;
+               }
+
+               &.link-green {
+                   background-color: darken($freecodecamp-color, 5%);
+               }
+
+               &.link-azure {
+                   background-color: $udacity-color;
+               }
+
+               &.link-pink {
+                   background-color: $udemy-color;
+               }
+                
+            }
+
+            p {
+                font-size: 1.6rem;
+                font-family: $font-secondary;
+                color: $primary-color-text;
+            }
+        }
     }
 }
