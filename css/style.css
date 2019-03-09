@@ -269,15 +269,20 @@ ul {
       display: grid;
       justify-items: center;
       align-items: center;
-      grid-gap: 1rem; }
-      #roadmap .roadmap-container .roadmap-box .roadmap-icon {
+      grid-gap: 1rem;
+      /*  .roadmap-icon {
         width: 5.5rem;
         height: 5.5rem;
-        fill: #303F9F;
-        /*  padding: 1.5rem;
+        fill: $primary-color-dark;
+        padding: 1.5rem;
         background-color: $primary-color;
         border-radius: 50%;
-        fill: $primary-color-text; */ }
+        fill: $primary-color-text;
+      } */ }
+      #roadmap .roadmap-container .roadmap-box figure img {
+        display: block;
+        width: 20rem;
+        height: 20rem; }
       #roadmap .roadmap-container .roadmap-box h3 {
         font-size: 2rem;
         font-family: "Montserrat", sans-serif; }

@@ -32,15 +32,24 @@
       align-items: center;
       grid-gap: 1rem;
 
-      .roadmap-icon {
+      figure {
+
+        img {
+          display: block;
+          width: 20rem;
+          height: 20rem;
+        }
+      }
+
+     /*  .roadmap-icon {
         width: 5.5rem;
         height: 5.5rem;
         fill: $primary-color-dark;
-       /*  padding: 1.5rem;
+        padding: 1.5rem;
         background-color: $primary-color;
         border-radius: 50%;
-        fill: $primary-color-text; */
-      }
+        fill: $primary-color-text;
+      } */
 
       h3 {
         font-size: 2rem;
