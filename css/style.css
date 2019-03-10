@@ -202,11 +202,13 @@ ul {
         #work .work-container .grid-container .img-overlay:hover .img-hover {
           opacity: 1; }
         #work .work-container .grid-container .img-overlay:hover img {
-          opacity: 0.7;
-          transform: scale(1.3); }
-        #work .work-container .grid-container .img-overlay:hover .img-hover .img-text {
+          opacity: 0.8;
+          transform: scale(1.1); }
+        #work .work-container .grid-container .img-overlay:hover .img-hover .img-title {
           color: #FFFFFF;
           font-weight: bold; }
+        #work .work-container .grid-container .img-overlay:hover .img-hover .img-desc {
+          color: #FFFFFF; }
         #work .work-container .grid-container .img-overlay img {
           display: block;
           width: 100%;
@@ -221,17 +223,46 @@ ul {
           left: 50%;
           transform: translate(-50%, -50%);
           opacity: 0;
-          transition: all 0.3s ease-in; }
+          transition: all 0.3s ease-in;
+          background-color: #303F9F;
+          padding: 1rem 2rem;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          z-index: 1; }
           #work .work-container .grid-container .img-overlay .img-hover .img-title {
             color: #FFFFFF;
             font-family: "Montserrat", sans-serif;
             text-align: center;
             font-size: 1.8rem; }
+            @media (min-width: 768px) {
+              #work .work-container .grid-container .img-overlay .img-hover .img-title {
+                font-size: 2rem; } }
           #work .work-container .grid-container .img-overlay .img-hover .img-desc {
             color: #FFFFFF;
             font-size: 1.6rem;
             font-family: "Lato", Arial, sans-serif;
-            text-align: center; }
+            text-align: center;
+            margin-top: 2rem;
+            max-width: 80%; }
+            @media (min-width: 768px) {
+              #work .work-container .grid-container .img-overlay .img-hover .img-desc {
+                font-size: 1.8rem;
+                max-width: 50%; } }
+          #work .work-container .grid-container .img-overlay .img-hover .img-btn {
+            background-color: transparent;
+            transition: all 0.3s;
+            border: 2px solid #FF5722;
+            padding: 1rem 2rem;
+            color: #FFFFFF;
+            width: 50%;
+            text-align: center;
+            margin-top: 3rem; }
+            #work .work-container .grid-container .img-overlay .img-hover .img-btn:hover {
+              background-color: #FF5722; }
   #work .btn-container {
     text-align: center;
     margin: 5rem 0 5rem 0; }
