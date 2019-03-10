@@ -15,7 +15,7 @@ const init = () => {
 
   MENU.addEventListener("click", () => {
     NAVLIST.classList.toggle("active");
-  })
+  });
 
   /* Lazy Load Images - Intersection Observer */
   const images = document.querySelectorAll("[data-src]");
@@ -24,9 +24,11 @@ const init = () => {
     threshold: 1.0
   };
 
-  const preloadImage = (img) => {
+  const preloadImage = img => {
     const src = img.getAttribute("data-src");
-    if (!src) { return; }
+    if (!src) {
+      return;
+    }
     img.src = src;
   };
 
@@ -37,7 +39,7 @@ const init = () => {
         // Stop observing and load the assets
         self.unobserve(entry.target);
       }
-    })
+    });
   }, config);
 
   images.forEach(image => {
