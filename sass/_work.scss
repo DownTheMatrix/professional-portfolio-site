@@ -67,7 +67,7 @@
           opacity: 0;
           transition: all 0.3s ease-in;
           background-color: $primary-color-dark;
-          padding: 1rem 2rem;
+          /* padding: 1rem 2rem; */
           width: 100%;
           height: 100%;
           display: flex;
@@ -80,24 +80,32 @@
             color: $primary-color-text;
             font-family: $font-primary;
             text-align: center;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
 
             @media (min-width: 768px) {
+              font-size: 1.8rem;
+            }
+
+            @media (min-width: 1100px) {
               font-size: 2rem;
             }
           }
 
           .img-desc {
             color: $primary-color-text;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-family: $font-secondary;
             text-align: center;
             margin-top: 2rem;
             max-width: 80%;
 
             @media (min-width: 768px) {
-              font-size: 1.8rem;
+              font-size: 1.6rem;
               max-width: 50%;
+            }
+
+            @media (min-width: 1100px) {
+              font-size: 1.8rem;
             }
           }
 
