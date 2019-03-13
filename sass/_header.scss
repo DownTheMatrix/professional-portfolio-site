@@ -8,7 +8,7 @@
     grid-gap: 3rem;
     margin-top: 3rem;
 
-    @media (max-width: 500px) {
+    @media (max-width: 31.25em) {  // 500px
       grid-gap: 4rem;
     }
 
@@ -18,7 +18,7 @@
         font-family: $font-primary;
         line-height: 5.5rem;
 
-        @media (min-width: 850px) {
+        @media (min-width: 53.12em) {  // 850px
           font-size: 10rem;
           line-height: 12.7rem;
         }
@@ -36,7 +36,7 @@
     font-size: 1.8rem;
     font-family: $font-secondary;
 
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       font-size: 3rem;
     }
   }

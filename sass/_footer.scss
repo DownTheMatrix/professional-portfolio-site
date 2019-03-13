@@ -9,13 +9,9 @@
     text-align: center;
     margin-top: 3rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       grid-template-columns: repeat(3, 1fr);
     }
-
-    /* @media (max-width: 500px) {
-      grid-template-columns: 1fr;
-    } */
 
     .footer-logo {
       display: flex;

@@ -70,10 +70,10 @@ ul {
     text-transform: uppercase;
     border-radius: 10rem;
     transition: background .3s; }
-    @media (max-width: 400px) {
+    @media (max-width: 25em) {
       .wrapper .back-btn:link, .wrapper .back-btn:visited {
         font-size: .9rem; } }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       .wrapper .back-btn:link, .wrapper .back-btn:visited {
         font-size: 1.6rem;
         padding: 1.50rem 3.5rem; } }
@@ -104,17 +104,17 @@ ul {
         height: 3.5rem; }
     #navbar .toggle .menu {
       margin-left: auto; }
-    @media (max-width: 768px) {
+    @media (max-width: 48em) {
       #navbar .toggle {
         display: flex; } }
   #navbar .navlist {
     /* display: none; */
     /* REMOVE after testing */ }
-    @media (min-width: 769px) {
+    @media (min-width: 48.06em) {
       #navbar .navlist {
         display: flex;
         justify-content: center; } }
-    @media (max-width: 768px) {
+    @media (max-width: 48em) {
       #navbar .navlist.active {
         width: 100%;
         display: none; } }
@@ -124,7 +124,7 @@ ul {
       padding: 2rem; }
       #navbar .navlist__item:hover {
         background-color: #FF5722; }
-      @media (max-width: 767px) {
+      @media (max-width: 47.93em) {
         #navbar .navlist__item {
           display: block;
           text-align: center; } }
@@ -143,14 +143,14 @@ ul {
     display: grid;
     grid-gap: 3rem;
     margin-top: 3rem; }
-    @media (max-width: 500px) {
+    @media (max-width: 31.25em) {
       #header .header-container {
         grid-gap: 4rem; } }
     #header .header-container .header-heading h1 {
       font-size: 4rem;
       font-family: "Montserrat", sans-serif;
       line-height: 5.5rem; }
-      @media (min-width: 850px) {
+      @media (min-width: 53.12em) {
         #header .header-container .header-heading h1 {
           font-size: 10rem;
           line-height: 12.7rem; } }
@@ -161,7 +161,7 @@ ul {
   #header .header-text {
     font-size: 1.8rem;
     font-family: "Lato", Arial, sans-serif; }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       #header .header-text {
         font-size: 3rem; } }
   #header .header-btn-container {
@@ -198,7 +198,7 @@ ul {
       @media (min-width: 768px) {
         #work .work-container .grid-container {
           grid-template-columns: repeat(2, 1fr); } }
-      @media (min-width: 1100px) {
+      @media (min-width: 68.75em) {
         #work .work-container .grid-container {
           grid-template-columns: repeat(2, minmax(auto, 50rem)); } }
       #work .work-container .grid-container .img-overlay {
@@ -244,10 +244,10 @@ ul {
             font-family: "Montserrat", sans-serif;
             text-align: center;
             font-size: 1.6rem; }
-            @media (min-width: 768px) {
+            @media (min-width: 48em) {
               #work .work-container .grid-container .img-overlay .img-hover .img-title {
                 font-size: 1.8rem; } }
-            @media (min-width: 1100px) {
+            @media (min-width: 68.75em) {
               #work .work-container .grid-container .img-overlay .img-hover .img-title {
                 font-size: 2rem; } }
           #work .work-container .grid-container .img-overlay .img-hover .img-desc {
@@ -257,11 +257,11 @@ ul {
             text-align: center;
             margin-top: 2rem;
             max-width: 80%; }
-            @media (min-width: 768px) {
+            @media (min-width: 48em) {
               #work .work-container .grid-container .img-overlay .img-hover .img-desc {
                 font-size: 1.6rem;
                 max-width: 50%; } }
-            @media (min-width: 1100px) {
+            @media (min-width: 68.75) {
               #work .work-container .grid-container .img-overlay .img-hover .img-desc {
                 font-size: 1.8rem; } }
           #work .work-container .grid-container .img-overlay .img-hover .img-btn {
@@ -304,7 +304,7 @@ ul {
     align-items: center;
     grid-gap: 5rem;
     margin: 3rem auto; }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       #roadmap .roadmap-container {
         grid-template-columns: repeat(3, 1fr); } }
     #roadmap .roadmap-container .roadmap-box {
@@ -312,16 +312,7 @@ ul {
       display: grid;
       justify-items: center;
       align-items: center;
-      grid-gap: 1rem;
-      /*  .roadmap-icon {
-        width: 5.5rem;
-        height: 5.5rem;
-        fill: $primary-color-dark;
-        padding: 1.5rem;
-        background-color: $primary-color;
-        border-radius: 50%;
-        fill: $primary-color-text;
-      } */ }
+      grid-gap: 1rem; }
       #roadmap .roadmap-container .roadmap-box figure img {
         display: block;
         width: 20rem;
@@ -342,17 +333,17 @@ ul {
     display: grid;
     grid-gap: 1rem;
     /* Form */ }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       .cooperation .cooperation-container {
         max-width: 80vw; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 64em) {
       .cooperation .cooperation-container {
         max-width: 50vw; } }
     .cooperation .cooperation-container h3 {
       font-size: 3.2rem;
       font-family: "Montserrat", sans-serif;
       font-weight: 700; }
-      @media (max-width: 500px) {
+      @media (max-width: 31.25em) {
         .cooperation .cooperation-container h3 {
           font-size: 2.8rem; } }
     .cooperation .cooperation-container h4 {
@@ -393,7 +384,7 @@ ul {
   flex-direction: column;
   align-items: center;
   padding: 2rem; }
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     #resume {
       padding: 5rem; } }
   #resume h2 {
@@ -406,10 +397,11 @@ ul {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5rem;
-    padding: 3rem; }
-    @media (min-width: 768px) {
+    padding: 1rem; }
+    @media (min-width: 48em) {
       #resume .timeline {
-        grid-template-columns: repeat(2, 1fr); } }
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem; } }
     #resume .timeline .item {
       background-color: #3F51B5;
       padding: 2rem;
@@ -451,11 +443,8 @@ ul {
   align-items: center;
   grid-gap: 5rem;
   text-align: center;
-  margin-top: 3rem;
-  /* @media (max-width: 500px) {
-      grid-template-columns: 1fr;
-    } */ }
-  @media (min-width: 768px) {
+  margin-top: 3rem; }
+  @media (min-width: 48em) {
     .footer .footer-container {
       grid-template-columns: repeat(3, 1fr); } }
   .footer .footer-container .footer-logo {

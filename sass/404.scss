@@ -23,11 +23,11 @@ $color-button: #FB5510;
             border-radius: 10rem;
             transition: background .3s;
 
-            @media (max-width: 400px) {
+            @media (max-width: 25em) {  // 400px
                 font-size: .9rem;
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 48em) {  // 768px
                 font-size: 1.6rem;
                 padding: 1.50rem 3.5rem;
             }

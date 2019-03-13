@@ -21,7 +21,7 @@
     grid-gap: 5rem;
     margin: 3rem auto;
 
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {  // 768px
       grid-template-columns: repeat(3, 1fr);
     }
 
@@ -40,16 +40,6 @@
           height: 20rem;
         }
       }
-
-     /*  .roadmap-icon {
-        width: 5.5rem;
-        height: 5.5rem;
-        fill: $primary-color-dark;
-        padding: 1.5rem;
-        background-color: $primary-color;
-        border-radius: 50%;
-        fill: $primary-color-text;
-      } */
 
       h3 {
         font-size: 2rem;
