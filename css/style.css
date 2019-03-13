@@ -225,7 +225,7 @@ ul {
           opacity: 0;
           transition: all 0.3s ease-in;
           background-color: #303F9F;
-          padding: 1rem 2rem;
+          /* padding: 1rem 2rem; */
           width: 100%;
           height: 100%;
           display: flex;
@@ -237,21 +237,27 @@ ul {
             color: #FFFFFF;
             font-family: "Montserrat", sans-serif;
             text-align: center;
-            font-size: 1.8rem; }
+            font-size: 1.6rem; }
             @media (min-width: 768px) {
+              #work .work-container .grid-container .img-overlay .img-hover .img-title {
+                font-size: 1.8rem; } }
+            @media (min-width: 1100px) {
               #work .work-container .grid-container .img-overlay .img-hover .img-title {
                 font-size: 2rem; } }
           #work .work-container .grid-container .img-overlay .img-hover .img-desc {
             color: #FFFFFF;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-family: "Lato", Arial, sans-serif;
             text-align: center;
             margin-top: 2rem;
             max-width: 80%; }
             @media (min-width: 768px) {
               #work .work-container .grid-container .img-overlay .img-hover .img-desc {
-                font-size: 1.8rem;
+                font-size: 1.6rem;
                 max-width: 50%; } }
+            @media (min-width: 1100px) {
+              #work .work-container .grid-container .img-overlay .img-hover .img-desc {
+                font-size: 1.8rem; } }
           #work .work-container .grid-container .img-overlay .img-hover .img-btn {
             background-color: transparent;
             transition: all 0.3s;
