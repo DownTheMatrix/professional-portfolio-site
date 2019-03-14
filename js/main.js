@@ -17,7 +17,18 @@ const init = () => {
     NAVLIST.classList.toggle("active");
   });
 
-  /* Lazy Load Images - Intersection Observer */
+  /* Lazy Load Images - Intersection Observer (provide fallback for Microsoft Edge) */
+  if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+    const img1 = document.querySelector(".img1");
+    const img2 = document.querySelector(".img2");
+    const img3 = document.querySelector(".img3");
+    const img4 = document.querySelector(".img4");
+    img1.src = "../img/myreads.png";
+    img2.src = "../img/boundfree.png";
+    img3.src = "../img/smartedison-md.png";
+    img4.src = "../img/arcade-game.png";
+  }
+
   const images = document.querySelectorAll("[data-src]");
   const config = {
     root: document.querySelector("#work"),
