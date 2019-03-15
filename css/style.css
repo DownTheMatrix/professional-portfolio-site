@@ -35,7 +35,7 @@ ul {
   font-size: 1.4rem;
   text-transform: uppercase;
   padding: 1.5rem 2.5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #212121;
   text-decoration: none;
@@ -45,7 +45,7 @@ ul {
     cursor: pointer; }
 
 .bolded {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   color: #212121;
@@ -58,7 +58,7 @@ ul {
   background: url("../img/artboard-xm.svg") no-repeat center center/cover; }
   .wrapper .back-btn:link, .wrapper .back-btn:visited {
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
     padding: 1.25rem 2.5rem;
     background-color: #FB5510;
     color: #FFFFFF;
@@ -85,7 +85,7 @@ ul {
   background-color: #303F9F;
   color: #FFFFFF;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
   border-bottom: 1px solid #BDBDBD; }
   #navbar .toggle {
     width: 100%;
@@ -148,7 +148,7 @@ ul {
         grid-gap: 4rem; } }
     #header .header-container .header-heading h1 {
       font-size: 4rem;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
       line-height: 5.5rem; }
       @media (min-width: 53.12em) {
         #header .header-container .header-heading h1 {
@@ -160,7 +160,7 @@ ul {
     background-color: #FFFFFF; }
   #header .header-text {
     font-size: 1.8rem;
-    font-family: "Lato", Arial, sans-serif; }
+    font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif; }
     @media (min-width: 48em) {
       #header .header-text {
         font-size: 3rem; } }
@@ -183,7 +183,7 @@ ul {
     #work .work-heading h3 {
       font-size: 2.8rem;
       text-align: center;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
       color: #212121; }
   #work .work-container {
     padding: 2rem;
@@ -241,7 +241,7 @@ ul {
           z-index: 1; }
           #work .work-container .grid-container .img-overlay .img-hover .img-title {
             color: #FFFFFF;
-            font-family: "Montserrat", sans-serif;
+            font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
             text-align: center;
             font-size: 1.6rem; }
             @media (min-width: 48em) {
@@ -253,7 +253,7 @@ ul {
           #work .work-container .grid-container .img-overlay .img-hover .img-desc {
             color: #FFFFFF;
             font-size: 1.4rem;
-            font-family: "Lato", Arial, sans-serif;
+            font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif;
             text-align: center;
             margin-top: 2rem;
             max-width: 80%; }
@@ -294,7 +294,7 @@ ul {
     #roadmap .roadmap-heading h3 {
       font-size: 2.8rem;
       text-align: center;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
       text-transform: capitalize; }
   #roadmap .roadmap-container {
     padding: 3rem;
@@ -319,10 +319,10 @@ ul {
         height: 20rem; }
       #roadmap .roadmap-container .roadmap-box h3 {
         font-size: 2rem;
-        font-family: "Montserrat", sans-serif; }
+        font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif; }
       #roadmap .roadmap-container .roadmap-box p {
         font-size: 1.6rem;
-        font-family: "Lato", Arial, sans-serif; }
+        font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif; }
 
 .cooperation {
   text-align: center;
@@ -341,7 +341,7 @@ ul {
         max-width: 50vw; } }
     .cooperation .cooperation-container h3 {
       font-size: 3.2rem;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
       font-weight: 700; }
       @media (max-width: 31.25em) {
         .cooperation .cooperation-container h3 {
@@ -349,7 +349,7 @@ ul {
     .cooperation .cooperation-container h4 {
       font-size: 2rem;
       font-weight: 400;
-      font-family: "Lato", Arial, sans-serif; }
+      font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif; }
     .cooperation .cooperation-container .btn-container {
       text-align: center;
       margin: 5rem 0; }
@@ -362,7 +362,7 @@ ul {
         width: 100%;
         text-align: left;
         font-size: 1.8rem;
-        font-family: "Lato", Arial, sans-serif;
+        font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif;
         padding: 1rem 0; }
       .cooperation .cooperation-container form .form-group input {
         width: 100%; }
@@ -390,7 +390,7 @@ ul {
   #resume h2 {
     font-size: 2.8rem;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
     text-transform: capitalize; }
   #resume .timeline {
     margin: 5rem 0 10rem 0;
@@ -410,11 +410,11 @@ ul {
       grid-gap: 1rem; }
       #resume .timeline .item h4 {
         font-size: 2rem;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
         color: #FFFFFF; }
       #resume .timeline .item h5 {
         font-size: 1.8rem;
-        font-family: "Lato", Arial, sans-serif; }
+        font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif; }
       #resume .timeline .item a:link, #resume .timeline .item a:visited {
         text-decoration: none;
         font-size: 1.4rem;
@@ -433,7 +433,7 @@ ul {
         background-color: #EA5252; }
       #resume .timeline .item p {
         font-size: 1.6rem;
-        font-family: "Lato", Arial, sans-serif;
+        font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif;
         color: #FFFFFF; }
 
 .footer .footer-container {
@@ -460,7 +460,7 @@ ul {
       margin-bottom: 1rem; }
     .footer .footer-container .footer-logo p {
       font-size: 1.8rem;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
       font-weight: 700;
       color: #212121;
       padding-bottom: .8rem; }
@@ -477,7 +477,7 @@ ul {
       .footer .footer-container .blog ul li a:visited {
         text-decoration: none;
         font-size: 1.6rem;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
         color: #212121; }
   .footer .footer-container .social ul {
     display: grid;
@@ -486,7 +486,7 @@ ul {
     .footer .footer-container .social ul li a:visited {
       text-decoration: none;
       font-size: 1.6rem;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
       color: #212121; }
   .footer .footer-container .professional ul {
     display: grid;
@@ -496,7 +496,7 @@ ul {
     .footer .footer-container .professional ul li a:visited {
       text-decoration: none;
       font-size: 1.6rem;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
       color: #212121; }
 
 .footer .copyright {
@@ -507,6 +507,6 @@ ul {
   margin-top: 5rem; }
   .footer .copyright p {
     font-size: 1.4rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
     color: #212121;
     font-weight: 700; }
