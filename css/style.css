@@ -249,7 +249,7 @@ ul {
                 font-size: 1.8rem; } }
             @media (min-width: 68.75em) {
               #work .work-container .grid-container .img-overlay .img-hover .img-title {
-                font-size: 2rem; } }
+                font-size: 2.6rem; } }
           #work .work-container .grid-container .img-overlay .img-hover .img-desc {
             color: #FFFFFF;
             font-size: 1.4rem;
@@ -259,11 +259,8 @@ ul {
             max-width: 80%; }
             @media (min-width: 48em) {
               #work .work-container .grid-container .img-overlay .img-hover .img-desc {
-                font-size: 1.6rem;
+                font-size: 1.8rem;
                 max-width: 50%; } }
-            @media (min-width: 68.75) {
-              #work .work-container .grid-container .img-overlay .img-hover .img-desc {
-                font-size: 1.8rem; } }
           #work .work-container .grid-container .img-overlay .img-hover .img-btn {
             background-color: transparent;
             transition: all 0.3s;
@@ -505,6 +502,15 @@ ul {
   text-align: center;
   background-color: #a0a8db;
   margin-top: 5rem; }
+  .footer .copyright .arrow-container {
+    background-color: #3F51B5;
+    display: inline-block;
+    padding: 1.5rem;
+    border-radius: 50%;
+    transform: translateY(-4rem); }
+    .footer .copyright .arrow-container .arrow-top {
+      font-size: 3rem;
+      color: #FFFFFF; }
   .footer .copyright p {
     font-size: 1.4rem;
     font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;

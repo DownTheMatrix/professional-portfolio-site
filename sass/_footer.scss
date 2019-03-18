@@ -104,6 +104,19 @@
     background-color: darken($primary-color-light, 10%);
     margin-top: 5rem;
 
+    .arrow-container {
+      background-color: $primary-color;
+      display: inline-block;
+      padding: 1.5rem;
+      border-radius: 50%;
+      transform: translateY(-4rem);
+
+      .arrow-top {
+        font-size: 3rem;
+        color: $primary-color-text;
+      }
+    }
+
     p {
       font-size: 1.4rem;
       font-family: $font-primary;
