@@ -497,7 +497,7 @@ ul {
       color: #212121; }
 
 .footer .copyright {
-  padding: 2rem;
+  padding: 1rem;
   grid-column: 1 / -1;
   text-align: center;
   background-color: #a0a8db;
@@ -515,4 +515,5 @@ ul {
     font-size: 1.4rem;
     font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
     color: #212121;
-    font-weight: 700; }
+    font-weight: 700;
+    padding-bottom: 1rem; }
