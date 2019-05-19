@@ -81,6 +81,60 @@ ul {
     cursor: pointer;
     background-color: #bb3903; }
 
+.confirmation-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fff0de; }
+  .confirmation-wrapper .heading-container {
+    padding: 5rem 0;
+    text-align: center; }
+    .confirmation-wrapper .heading-container h2 {
+      font-size: 3rem;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+      color: #c54e1d; }
+      @media (min-width: 768px) {
+        .confirmation-wrapper .heading-container h2 {
+          font-size: 5rem; } }
+  .confirmation-wrapper .illustration-container {
+    width: 100%;
+    text-align: center; }
+    @media (min-width: 48em) {
+      .confirmation-wrapper .illustration-container {
+        padding: 5rem; } }
+    .confirmation-wrapper .illustration-container figure {
+      width: 100%;
+      height: 100%; }
+      .confirmation-wrapper .illustration-container figure img {
+        max-width: 100%;
+        height: auto; }
+        @media (max-width: 37.5em) {
+          .confirmation-wrapper .illustration-container figure img {
+            width: 100%; } }
+  .confirmation-wrapper .btn-container {
+    display: flex;
+    justify-content: center; }
+    .confirmation-wrapper .btn-container .confimation-btn:link, .confirmation-wrapper .btn-container .confimation-btn:visited {
+      padding: 1.25rem 2.5rem;
+      background-color: #fb5510;
+      color: #FFFFFF;
+      text-decoration: none;
+      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      border-radius: 10rem;
+      transition: background 0.3s; }
+      @media (max-width: 25em) {
+        .confirmation-wrapper .btn-container .confimation-btn:link, .confirmation-wrapper .btn-container .confimation-btn:visited {
+          font-size: 0.9rem; } }
+      @media (min-width: 48em) {
+        .confirmation-wrapper .btn-container .confimation-btn:link, .confirmation-wrapper .btn-container .confimation-btn:visited {
+          font-size: 1.6rem;
+          padding: 1.5rem 3.5rem; } }
+      .confirmation-wrapper .btn-container .confimation-btn:link:hover, .confirmation-wrapper .btn-container .confimation-btn:link:active, .confirmation-wrapper .btn-container .confimation-btn:visited:hover, .confirmation-wrapper .btn-container .confimation-btn:visited:active {
+        cursor: pointer;
+        background-color: #bb3903; }
+
 #navbar {
   background-color: #303F9F;
   color: #FFFFFF;
