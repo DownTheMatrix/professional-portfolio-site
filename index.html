@@ -274,8 +274,13 @@
       <div class="cooperation-container container">
         <h3>Let's work together!</h3>
         <h4>I'd love to hear from you and work together on a project.</h4>
-        <form name="contact" method="POST" data-netlify="true" action="/form-submission.html">
-          <!-- action="/pages/success" -->
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/form-submission.html">
+          <!-- Honeypot Field -->
+          <div class="form-group">
+            <p class="hidden">
+              <label>Don’t fill this out if you're human. Form submission will be rejected: <input name="bot-field" /></label>
+            </p>
+          </div>
           <div class="form-group">
             <label for="name">Full Name *</label>
             <input type="text" name="name" id="name" required />
