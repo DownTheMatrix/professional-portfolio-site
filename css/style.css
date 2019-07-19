@@ -524,87 +524,107 @@ ul {
         font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif;
         color: #FFFFFF; }
 
-.footer .footer-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 5rem;
-  text-align: center;
-  margin-top: 3rem; }
-  @media (min-width: 48em) {
-    .footer .footer-container {
-      grid-template-columns: repeat(3, 1fr); } }
-  .footer .footer-container .footer-logo {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+.footer {
+  position: relative; }
+  .footer .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
     align-items: center;
-    grid-column: 1 / -1;
-    margin-bottom: 1rem; }
-    .footer .footer-container .footer-logo img {
-      width: 5.5rem;
-      height: 5.5rem;
+    grid-gap: 5rem;
+    text-align: center;
+    padding: 5rem; }
+    @media (min-width: 48em) {
+      .footer .footer-container {
+        grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 64em) {
+      .footer .footer-container {
+        padding: 10rem; } }
+    .footer .footer-container .footer-logo {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      grid-column: 1 / -1;
       margin-bottom: 1rem; }
-    .footer .footer-container .footer-logo p {
-      font-size: 1.8rem;
-      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
-      font-weight: 700;
-      color: #212121;
-      padding-bottom: .8rem; }
-    .footer .footer-container .footer-logo .divide {
-      background-color: #FF5722;
-      width: 10rem;
-      height: .3rem; }
-  .footer .footer-container .blog {
-    margin-left: .5rem; }
-    .footer .footer-container .blog ul {
+      .footer .footer-container .footer-logo img {
+        width: 5.5rem;
+        height: 5.5rem;
+        margin-bottom: 1rem; }
+      .footer .footer-container .footer-logo p {
+        font-size: 1.8rem;
+        font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        color: #212121;
+        padding-bottom: 0.8rem; }
+      .footer .footer-container .footer-logo .divide {
+        background-color: #FF5722;
+        width: 10rem;
+        height: 0.3rem; }
+    .footer .footer-container .blog {
+      margin-left: 0.5rem; }
+      .footer .footer-container .blog ul {
+        display: grid;
+        grid-gap: 0.3rem; }
+        .footer .footer-container .blog ul li a:link,
+        .footer .footer-container .blog ul li a:visited {
+          text-decoration: none;
+          font-size: 1.6rem;
+          font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+          color: #212121; }
+    .footer .footer-container .social ul {
       display: grid;
       grid-gap: 0.3rem; }
-      .footer .footer-container .blog ul li a:link,
-      .footer .footer-container .blog ul li a:visited {
+      .footer .footer-container .social ul li a:link,
+      .footer .footer-container .social ul li a:visited {
         text-decoration: none;
         font-size: 1.6rem;
         font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
         color: #212121; }
-  .footer .footer-container .social ul {
-    display: grid;
-    grid-gap: 0.3rem; }
-    .footer .footer-container .social ul li a:link,
-    .footer .footer-container .social ul li a:visited {
-      text-decoration: none;
-      font-size: 1.6rem;
+    .footer .footer-container .professional ul {
+      display: grid;
+      grid-gap: 0.3rem;
+      margin-right: 0.5rem; }
+      .footer .footer-container .professional ul li a:link,
+      .footer .footer-container .professional ul li a:visited {
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+        color: #212121; }
+    .footer .footer-container .arrow-container {
+      background-color: #3F51B5;
+      /*  display: inline-block;
+      padding: 1.5rem;
+      border-radius: 50%;
+      transform: translateY(-4rem); */
+      position: absolute;
+      bottom: 8rem;
+      right: 1.5rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.2s; }
+      .footer .footer-container .arrow-container:hover {
+        background-color: #FF5722; }
+      .footer .footer-container .arrow-container .arrow-top {
+        font-size: 3rem;
+        color: #FFFFFF; }
+  .footer .copyright {
+    padding: 2rem;
+    background-color: #a0a8db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .footer .copyright p {
+      font-size: 1.3rem;
       font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
-      color: #212121; }
-  .footer .footer-container .professional ul {
-    display: grid;
-    grid-gap: 0.3rem;
-    margin-right: .5rem; }
-    .footer .footer-container .professional ul li a:link,
-    .footer .footer-container .professional ul li a:visited {
-      text-decoration: none;
-      font-size: 1.6rem;
-      font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
-      color: #212121; }
-
-.footer .copyright {
-  padding: 1rem;
-  grid-column: 1 / -1;
-  text-align: center;
-  background-color: #a0a8db;
-  margin-top: 5rem; }
-  .footer .copyright .arrow-container {
-    background-color: #3F51B5;
-    display: inline-block;
-    padding: 1.5rem;
-    border-radius: 50%;
-    transform: translateY(-4rem); }
-    .footer .copyright .arrow-container .arrow-top {
-      font-size: 3rem;
-      color: #FFFFFF; }
-  .footer .copyright p {
-    font-size: 1.4rem;
-    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
-    color: #212121;
-    font-weight: 700;
-    padding-bottom: 1rem; }
+      color: #212121;
+      font-weight: 700; }
+      @media (min-width: 31.25em) {
+        .footer .copyright p {
+          font-size: 1.4rem; } }
+      @media (min-width: 48em) {
+        .footer .copyright p {
+          font-size: 1.6rem; } }
