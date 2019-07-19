@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
 
   .footer-container {
     display: grid;
@@ -7,10 +8,14 @@
     align-items: center;
     grid-gap: 5rem;
     text-align: center;
-    margin-top: 3rem;
+    padding: 5rem;
 
     @media (min-width: 48em) {
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 64em) {
+      padding: 10rem;
     }
 
     .footer-logo {
@@ -32,18 +37,18 @@
         font-family: $font-primary;
         font-weight: 700;
         color: $primary-text-color;
-        padding-bottom: .8rem;
+        padding-bottom: 0.8rem;
       }
 
       .divide {
         background-color: $accent-color;
         width: 10rem;
-        height: .3rem;
+        height: 0.3rem;
       }
     }
 
     .blog {
-      margin-left: .5rem;
+      margin-left: 0.5rem;
 
       ul {
         display: grid;
@@ -82,7 +87,7 @@
       ul {
         display: grid;
         grid-gap: 0.3rem;
-        margin-right: .5rem;
+        margin-right: 0.5rem;
 
         li {
           a:link,
@@ -95,34 +100,54 @@
         }
       }
     }
-  }
-
-  .copyright {
-    padding: 1rem;
-    grid-column: 1 / -1;
-    text-align: center;
-    background-color: darken($primary-color-light, 10%);
-    margin-top: 5rem;
 
     .arrow-container {
       background-color: $primary-color;
-      display: inline-block;
+      /*  display: inline-block;
       padding: 1.5rem;
       border-radius: 50%;
-      transform: translateY(-4rem);
+      transform: translateY(-4rem); */
+      position: absolute;
+      bottom: 8rem;
+      right: 1.5rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background-color: $accent-color;
+      }
 
       .arrow-top {
         font-size: 3rem;
         color: $primary-color-text;
       }
     }
+  }
+
+  .copyright {
+    padding: 2rem;
+    background-color: darken($primary-color-light, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
     p {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       font-family: $font-primary;
       color: $primary-text-color;
       font-weight: 700;
-      padding-bottom: 1rem;
+
+      @media (min-width: 31.25em) {
+        font-size: 1.4rem;
+      }
+
+      @media (min-width: 48em) {
+        font-size: 1.6rem;
+      }
     }
   }
 }
