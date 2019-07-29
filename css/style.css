@@ -400,17 +400,19 @@ ul {
       margin: 1rem; }
       @media (min-width: 25em) {
         .overview .icons-container .icons-group .icon {
-          width: 4rem;
-          height: 4rem;
+          width: 5rem;
+          height: 5rem;
           margin: 2rem; } }
       @media (min-width: 48em) {
         .overview .icons-container .icons-group .icon {
-          width: 5rem;
-          height: 5rem; } }
+          width: 6rem;
+          height: 6rem;
+          margin: 2.5rem; } }
       @media (min-width: 63.75em) {
         .overview .icons-container .icons-group .icon {
           width: 8rem;
-          height: 8rem; } }
+          height: 8rem;
+          margin: 3rem; } }
 
 .cooperation {
   text-align: center;
