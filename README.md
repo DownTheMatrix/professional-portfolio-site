@@ -12,4 +12,4 @@ Alternatively, you can view the live version [here](https://www.brunomazza.dev/)
 
 ### License
 
-Contents of this repository and site are © Copyright 2019 Bruno Mazza. All rights reserved.
+Contents of this repository and site are © Copyright 2020 Bruno Mazza. All rights reserved.
