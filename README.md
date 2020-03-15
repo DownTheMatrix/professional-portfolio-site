@@ -12,6 +12,4 @@ Alternatively, you can view the live version [here](https://www.brunomazza.dev/)
 
 ### License
 
-Source code is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
-
-Contents of this repository and site are © Copyright 2019 Bruno Mazza. All rights reserved.
+Contents of this repository and site are © Copyright 2020 Bruno Mazza. All rights reserved.
