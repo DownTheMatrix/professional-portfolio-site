@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.4.4",
+    "glob-parent": "^6.0.2",
     "js-yaml": "^3.13.1",
     "kind-of": "^6.0.3",
     "lodash": "^4.17.21",
